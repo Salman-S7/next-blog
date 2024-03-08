@@ -6,7 +6,7 @@ function AuthLinks() {
    
   const [open, setOpen] = useState(false);
 
-  const authenticated = "notauthenticated"
+  const authenticated = "authenticated"
   return (
     <>
       {authenticated === 'notauthenticated'? (<Link href='/login' className={styles.link}>Login</Link>
