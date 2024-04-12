@@ -64,9 +64,3 @@ a{
         padding-right: 40px; */
     }
 }
-.ql-container{
-    font-size: 28px !important;
-}
-.ql-editor.ql-blank::before{
-    color: #b3b3b1 !important;
-}

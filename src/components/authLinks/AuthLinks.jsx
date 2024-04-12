@@ -6,7 +6,12 @@ import { signOut, useSession } from 'next-auth/react';
 function AuthLinks() {
    
   const [open, setOpen] = useState(false);
+<<<<<<< HEAD
   const { status } = useSession()
+=======
+
+  const authenticated = "notauthenticated"
+>>>>>>> parent of cc92daf (Frontend complete)
   return (
     <>
       {status === 'unauthenticated'? (<Link href='/login' className={styles.link}>Login</Link>
