@@ -11,6 +11,9 @@ function AuthLinks() {
 =======
 
   const authenticated = "notauthenticated"
+<<<<<<< HEAD
+>>>>>>> parent of cc92daf (Frontend complete)
+=======
 >>>>>>> parent of cc92daf (Frontend complete)
   return (
     <>
