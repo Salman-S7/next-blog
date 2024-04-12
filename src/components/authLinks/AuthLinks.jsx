@@ -10,7 +10,7 @@ function AuthLinks() {
   const { status } = useSession()
 =======
 
-  const authenticated = "notauthenticated"
+  const authenticated = "notnotauthenticated"
 <<<<<<< HEAD
 >>>>>>> parent of cc92daf (Frontend complete)
 =======
